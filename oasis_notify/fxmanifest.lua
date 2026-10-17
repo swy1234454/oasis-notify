@@ -1,0 +1,10 @@
+fx_version 'cerulean'
+game 'gta5'
+author 'Oasis'
+description 'Oasis Notification Script'
+version '1.0.0'
+ui_page 'web/index.html'
+shared_script 'config.lua'
+client_script 'client.lua'
+server_script 'server.lua'
+files { 'web/index.html', 'web/style.css', 'web/app.js', 'web/assets/*.svg', 'web/assets/*.woff2', 'web/assets/Inter-LICENSE.txt' }
